@@ -1,0 +1,11 @@
+trait,spec,k,b_high_stakes,se,p
+Neuroticism,stakes_only,104,-0.013,0.034,0.7011
+Neuroticism,with_controls,54,0.027,0.025,0.2802
+Extraversion,stakes_only,81,-0.014,0.034,0.6897
+Extraversion,with_controls,52,-0.05,0.02,0.0107
+Openness,stakes_only,62,-0.003,0.025,0.8969
+Openness,with_controls,41,-0.014,0.028,0.6293
+Agreeableness,stakes_only,75,0.023,0.034,0.5052
+Agreeableness,with_controls,44,-0.005,0.03,0.8709
+Conscientiousness,stakes_only,91,-0.107,0.065,0.103
+Conscientiousness,with_controls,59,-0.164,0.091,0.0735

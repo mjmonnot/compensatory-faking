@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+.env*
+~$*.docx
+~$*.xlsx
+database/*
+!database/README.md
+data/*
+!data/README.md
+output/audit_applicant_samples.csv
+manuscript/*.docx

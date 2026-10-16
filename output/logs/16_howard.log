@@ -1,0 +1,86 @@
+Building base pools (bit-identical to model 12's)...
+
+[6b] Six-target refit: linear / censored / free-skill (field_ns0, variant T)
+  US      linear     dist   6.20 (excl A   2.67) | loss SR.10  10.4% SR.30   8.9%
+  US      censored   dist   4.36 (excl A   0.83) | loss SR.10  18.3% SR.30  15.6%
+  US      free_skill dist   4.30 (excl A   0.77) | loss SR.10  18.2% SR.30  17.5%
+  Pooled  linear     dist   4.95 (excl A   1.42) | loss SR.10   7.9% SR.30   9.2%
+  Pooled  censored   dist   4.25 (excl A   0.72) | loss SR.10  17.1% SR.30  17.2%
+  Pooled  free_skill dist   4.12 (excl A   0.59) | loss SR.10  13.4% SR.30  16.6%
+  Non-US  linear     dist   4.90 (excl A   1.38) | loss SR.10   9.8% SR.30  17.9%
+  Non-US  censored   dist   7.11 (excl A   3.58) | loss SR.10  21.2% SR.30  30.5%
+  Non-US  free_skill dist   4.89 (excl A   1.37) | loss SR.10  11.1% SR.30  19.8%
+
+[6c] Anchor-set outcome grid (six-target linear fit, all sets, all contexts)
+  US      field_ns0  SR 0.10 loss  10.4% | hires chg  34.9% | dist   6.20 supported=True
+  US      field_ns0  SR 0.30 loss   8.9% | hires chg  21.1% | dist   6.20 supported=True
+  US      field      SR 0.10 loss  11.3% | hires chg  33.0% | dist   8.17 supported=False
+  US      field      SR 0.30 loss   9.4% | hires chg  19.5% | dist   8.17 supported=False
+  US      lab        SR 0.10 loss   6.8% | hires chg  30.9% | dist   3.79 supported=True
+  US      lab        SR 0.30 loss   7.1% | hires chg  24.4% | dist   3.79 supported=True
+  Pooled  field_ns0  SR 0.10 loss   7.9% | hires chg  28.8% | dist   4.95 supported=True
+  Pooled  field_ns0  SR 0.30 loss   9.2% | hires chg  21.5% | dist   4.95 supported=True
+  Pooled  field      SR 0.10 loss   8.4% | hires chg  29.2% | dist   6.56 supported=True
+  Pooled  field      SR 0.30 loss   9.6% | hires chg  20.7% | dist   6.56 supported=True
+  Pooled  lab        SR 0.10 loss   9.3% | hires chg  28.5% | dist   3.80 supported=True
+  Pooled  lab        SR 0.30 loss  11.6% | hires chg  27.0% | dist   3.80 supported=True
+  Non-US  field_ns0  SR 0.10 loss   9.8% | hires chg  20.0% | dist   4.90 supported=True
+  Non-US  field_ns0  SR 0.30 loss  17.9% | hires chg  25.4% | dist   4.90 supported=True
+  Non-US  field      SR 0.10 loss  11.5% | hires chg  25.8% | dist   6.69 supported=True
+  Non-US  field      SR 0.30 loss  19.1% | hires chg  26.0% | dist   6.69 supported=True
+  Non-US  lab        SR 0.10 loss  39.1% | hires chg  37.6% | dist   6.57 supported=True
+  Non-US  lab        SR 0.30 loss  48.2% | hires chg  41.2% | dist   6.57 supported=True
+
+[6d] RHO_CSE x RHO_HSE grid (+/-.10 around defaults; field_ns0, linear)
+context  rho_CSE  rho_HSE  is_default  weighted_distance  perf_loss_pct_SR10  pct_hires_changed_SR10  H_gap_SR10  AIR_honest_SR10  AIR_faked_SR10
+     US      0.2      0.1       False               6.25                9.74                   34.45      -0.198            0.396           0.381
+     US      0.2      0.2       False               6.25                9.27                   34.92      -0.207            0.383           0.362
+     US      0.2      0.3       False               6.23                9.11                   34.43      -0.182            0.378           0.373
+     US      0.3      0.1       False               6.24               10.86                   34.71      -0.209            0.380           0.367
+     US      0.3      0.2        True               6.20               10.37                   34.87      -0.187            0.397           0.383
+     US      0.3      0.3       False               6.28                8.96                   34.91      -0.194            0.383           0.368
+     US      0.4      0.1       False               6.22                9.74                   34.55      -0.198            0.388           0.370
+     US      0.4      0.2       False               6.32                9.82                   34.60      -0.218            0.372           0.367
+     US      0.4      0.3       False               6.13                9.50                   34.67      -0.212            0.392           0.367
+ Pooled      0.2      0.1       False               5.00                8.17                   29.71      -0.200            0.398           0.376
+ Pooled      0.2      0.2       False               4.95                7.69                   29.09      -0.231            0.399           0.376
+ Pooled      0.2      0.3       False               4.98                6.91                   29.02      -0.243            0.395           0.380
+ Pooled      0.3      0.1       False               4.94                8.67                   29.41      -0.232            0.383           0.361
+ Pooled      0.3      0.2        True               4.95                7.93                   28.82      -0.216            0.374           0.353
+ Pooled      0.3      0.3       False               4.98                8.11                   29.57      -0.215            0.369           0.360
+ Pooled      0.4      0.1       False               4.98                7.66                   29.05      -0.204            0.394           0.367
+ Pooled      0.4      0.2       False               4.95                8.19                   28.81      -0.224            0.369           0.356
+ Pooled      0.4      0.3       False               4.97                8.86                   29.20      -0.246            0.396           0.364
+ Non-US      0.2      0.1       False               4.87                8.99                   20.03      -0.437            0.393           0.372
+ Non-US      0.2      0.2       False               4.83                9.31                   20.00      -0.442            0.384           0.364
+ Non-US      0.2      0.3       False               4.97                8.38                   19.98      -0.478            0.398           0.372
+ Non-US      0.3      0.1       False               4.87                9.23                   20.23      -0.434            0.386           0.357
+ Non-US      0.3      0.2        True               4.90                9.78                   20.01      -0.447            0.397           0.372
+ Non-US      0.3      0.3       False               4.83                9.45                   19.98      -0.450            0.376           0.354
+ Non-US      0.4      0.1       False               4.86               10.23                   20.29      -0.457            0.380           0.367
+ Non-US      0.4      0.2       False               4.88                9.68                   20.10      -0.428            0.379           0.363
+ Non-US      0.4      0.3       False               4.86               10.43                   20.16      -0.438            0.394           0.369
+
+[6e] Model-implied ES-GMA applicant shift vs Study 1's held-out Neuroticism contrast
+  US      linear     implied -0.026 vs observed +0.013 [-0.029, +0.055] INSIDE
+  US      censored   implied -0.017 vs observed +0.013 [-0.029, +0.055] INSIDE
+  US      free_skill implied -0.022 vs observed +0.013 [-0.029, +0.055] INSIDE
+  Pooled  linear     implied -0.101 vs observed +0.013 [-0.029, +0.055] OUTSIDE
+  Pooled  censored   implied -0.093 vs observed +0.013 [-0.029, +0.055] OUTSIDE
+  Pooled  free_skill implied -0.094 vs observed +0.013 [-0.029, +0.055] OUTSIDE
+  Non-US  linear     implied -0.279 vs observed +0.013 [-0.029, +0.055] OUTSIDE
+  Non-US  censored   implied -0.277 vs observed +0.013 [-0.029, +0.055] OUTSIDE
+  Non-US  free_skill implied -0.277 vs observed +0.013 [-0.029, +0.055] OUTSIDE
+
+[5b] Prevalence sweep p_fake in (0.3, 0.5, 0.2) (field_ns0, linear, full propensity re-solve + refit)
+  US      p=0.30 dist   8.16 | loss SR.10  13.3% SR.30   9.6% | hires chg  37.4/ 21.5%
+  US      p=0.50 dist   5.22 | loss SR.10   8.2% SR.30   7.4% | hires chg  31.6/ 20.0%
+  US      p=0.20 dist  11.97 | loss SR.10  16.6% SR.30   9.9% | hires chg  38.7/ 19.8%
+  Pooled  p=0.30 dist   6.40 | loss SR.10  10.3% SR.30  11.2% | hires chg  31.8/ 22.7%
+  Pooled  p=0.50 dist   4.27 | loss SR.10   6.3% SR.30   7.3% | hires chg  27.1/ 20.3%
+  Pooled  p=0.20 dist   9.73 | loss SR.10  15.2% SR.30  13.4% | hires chg  34.4/ 22.1%
+  Non-US  p=0.30 dist   7.79 | loss SR.10  13.4% SR.30  26.8% | hires chg  21.9/ 28.1%
+  Non-US  p=0.50 dist   3.91 | loss SR.10  10.1% SR.30  14.2% | hires chg  21.5/ 23.5%
+  Non-US  p=0.20 dist  15.04 | loss SR.10  25.0% SR.30  36.7% | hires chg  26.5/ 29.4%
+
+Saved study2_sixtarget_refit.csv

@@ -1,0 +1,11 @@
+trait,comparison,r_high_stakes,r_comparison,diff,z,p
+Neuroticism,applicant_vs_incumbent,-0.111,-0.098,-0.013,-0.61,0.5404
+Neuroticism,applicant_vs_all_low_stakes,-0.111,-0.068,-0.043,-2.53,0.0114
+Extraversion,applicant_vs_incumbent,0.016,0.03,-0.014,-0.61,0.5397
+Extraversion,applicant_vs_all_low_stakes,0.016,-0.015,0.031,1.64,0.1009
+Openness,applicant_vs_incumbent,0.143,0.146,-0.003,-0.15,0.8809
+Openness,applicant_vs_all_low_stakes,0.143,0.192,-0.049,-3.02,0.0025
+Agreeableness,applicant_vs_incumbent,0.019,-0.003,0.023,1.05,0.2938
+Agreeableness,applicant_vs_all_low_stakes,0.019,-0.021,0.041,2.23,0.0258
+Conscientiousness,applicant_vs_incumbent,-0.074,0.032,-0.107,-2.78,0.0054
+Conscientiousness,applicant_vs_all_low_stakes,-0.074,-0.007,-0.067,-1.86,0.0632

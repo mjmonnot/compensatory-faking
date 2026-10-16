@@ -1,0 +1,7 @@
+facet,group,k,N,mean_r,CI95_lo,CI95_hi,z,p
+C--Achievement,Applicant,8.0,16578.0,0.065,0.004,0.125,,
+C--Achievement,Employee,11.0,4839.0,0.069,-0.002,0.14,,
+C--Achievement,contrast (App - Emp),,,-0.005,,,-0.09,0.9243
+C--Dependability,Applicant,5.0,3465.0,0.043,-0.041,0.128,,
+C--Dependability,Employee,27.0,8338.0,0.02,-0.003,0.043,,
+C--Dependability,contrast (App - Emp),,,0.023,,,0.52,0.6006

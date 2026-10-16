@@ -1,0 +1,18 @@
+trait,moderator,level1,k1,r1,level2,k2,r2,diff,z,p
+Neuroticism,published,published,6,-0.092,unpublished,15,-0.116,0.024,0.7,0.4866
+Neuroticism,us,US,8,-0.113,non-US,13,-0.108,-0.005,-0.15,0.8808
+Neuroticism,era,<= 2005,11,-0.095,> 2005,10,-0.14,0.045,1.33,0.1845
+Neuroticism,measure_family,research inventory,4,-0.013,occupational inventory,17,-0.114,0.101,1.43,0.1517
+Extraversion,published,published,6,-0.035,unpublished,9,0.057,-0.092,-3.25,0.0011
+Extraversion,us,US,6,0.085,non-US,9,-0.006,0.092,2.78,0.0055
+Extraversion,era,<= 2005,8,-0.04,> 2005,7,0.083,-0.123,-6.22,0.0
+Extraversion,measure_family,research inventory,4,-0.016,occupational inventory,11,0.018,-0.034,-0.48,0.6282
+Openness,published,published,6,0.127,unpublished,7,0.159,-0.032,-1.17,0.2405
+Openness,era,<= 2005,6,0.137,> 2005,7,0.156,-0.019,-0.68,0.4989
+Agreeableness,us,US,6,0.054,non-US,5,-0.029,0.082,2.91,0.0036
+Agreeableness,era,<= 2005,6,0.014,> 2005,5,0.033,-0.018,-0.56,0.5727
+Agreeableness,measure_family,research inventory,4,-0.023,occupational inventory,7,0.021,-0.045,-0.46,0.6423
+Conscientiousness,published,published,8,-0.092,unpublished,12,-0.068,-0.025,-0.3,0.7637
+Conscientiousness,us,US,10,0.007,non-US,10,-0.272,0.279,6.02,0.0
+Conscientiousness,era,<= 2005,11,-0.053,> 2005,9,-0.11,0.057,0.79,0.428
+Conscientiousness,measure_family,research inventory,4,-0.083,occupational inventory,16,-0.074,-0.01,-0.1,0.9172

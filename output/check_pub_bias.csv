@@ -1,0 +1,6 @@
+trait,k,egger_slope,egger_slope_p,PET_intercept_r,PEESE_intercept_r,note
+Neuroticism,21,1.676,0.0847,-0.152,-0.118,
+Extraversion,15,-0.095,0.9211,0.019,0.017,
+Openness,13,-0.928,0.306,0.166,0.147,
+Agreeableness,11,-0.3,0.8151,0.025,0.018,
+Conscientiousness,20,-1.651,0.4076,-0.037,-0.075,

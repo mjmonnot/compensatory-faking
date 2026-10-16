@@ -1,0 +1,13 @@
+scenario,w_gma,composite_validity,composite_d
+Total-database input (r12 = +.01),0.0,0.19,-0.07
+Total-database input (r12 = +.01),0.25,0.277,0.183
+Total-database input (r12 = +.01),0.5,0.352,0.507
+Total-database input (r12 = +.01),0.75,0.353,0.725
+Total-database input (r12 = +.01),1.0,0.31,0.79
+Total-database input (r12 = +.01),optimal (regression) R,0.362,
+Pooled applicant input (r12 = -.09),0.0,0.19,-0.07
+Pooled applicant input (r12 = -.09),0.25,0.286,0.189
+Pooled applicant input (r12 = -.09),0.5,0.371,0.534
+Pooled applicant input (r12 = -.09),0.75,0.364,0.748
+Pooled applicant input (r12 = -.09),1.0,0.31,0.79
+Pooled applicant input (r12 = -.09),optimal (regression) R,0.379,

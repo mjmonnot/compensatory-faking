@@ -1,0 +1,6 @@
+trait,r_obs_high_stakes,rho_high_stakes,k_high_stakes,N_high_stakes,r_obs_low_stakes,rho_low_stakes,k_low_stakes,N_low_stakes,r_obs_total_db,rho_total_db,k_total_db
+Neuroticism,-0.111,-0.135,21,22775,-0.068,-0.082,471,178784,-0.064,-0.077,568
+Extraversion,0.016,0.02,15,13137,-0.015,-0.018,421,188410,-0.013,-0.016,495
+Openness,0.143,0.173,13,13756,0.192,0.233,307,137635,0.213,0.258,361
+Agreeableness,0.019,0.024,11,18848,-0.021,-0.026,309,142653,-0.011,-0.013,368
+Conscientiousness,-0.074,-0.09,20,20757,-0.007,-0.009,301,130377,0.007,0.009,366

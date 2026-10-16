@@ -1,0 +1,20 @@
+scenario,k,N,mean_r,ci_lo,ci_hi
+Conscientiousness | ours,20,20757,-0.074,-0.144,-0.004
+Conscientiousness | ours + megas (excl. 2M sample),26,253503,0.062,0.033,0.092
+Conscientiousness | ours + all megas,27,2259742,0.051,0.042,0.061
+Conscientiousness | US ours,10,14707,0.007,-0.047,0.062
+Conscientiousness | US ours + megas (excl. 2M),15,228088,0.068,0.039,0.096
+Conscientiousness | non-US ours,10,6050,-0.272,-0.344,-0.199
+Conscientiousness | non-US ours + megas (excl. 2M),11,25415,0.015,-0.086,0.115
+Neuroticism | ours,21,22775,-0.111,-0.144,-0.078
+Neuroticism | ours + megas (excl. 2M sample),24,140710,-0.057,-0.092,-0.021
+Neuroticism | ours + all megas,25,2146949,-0.069,-0.078,-0.06
+Openness | ours,13,13756,0.143,0.115,0.171
+Openness | ours + megas (excl. 2M sample),17,157888,0.19,0.169,0.211
+Openness | ours + all megas,18,2164127,0.246,0.236,0.255
+Extraversion | ours,15,13137,0.016,-0.02,0.053
+Extraversion | ours + megas (excl. 2M sample),20,221861,0.08,0.067,0.093
+Extraversion | ours + all megas,21,2228100,0.044,0.037,0.051
+Agreeableness | ours,11,18848,0.019,-0.015,0.054
+Agreeableness | ours + megas (excl. 2M sample),16,185943,0.064,0.035,0.092
+Agreeableness | ours + all megas,17,2192182,0.06,0.052,0.068

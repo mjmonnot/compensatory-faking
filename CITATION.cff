@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: "If you use this code or these results, please cite the preprint."
+title: "Compensatory Faking and the Relationship Between Cognitive Ability and Personality in Personnel Selection: Meta-Analytic Evidence and Trait-Driven Simulations"
+authors:
+  - family-names: Monnot
+    given-names: Matthew J.
+    orcid: "https://orcid.org/0000-0002-9489-1777"
+    affiliation: Vocentive
+date-released: 2026-10-14
+identifiers:
+  - type: doi
+    value: 10.2139/ssrn.7611561
+    description: SSRN preprint
+repository-code: "https://github.com/mjmonnot/compensatory-faking"
+url: "https://papers.ssrn.com/abstract=7611561"
+license: MIT

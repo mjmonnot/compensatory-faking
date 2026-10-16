@@ -1,0 +1,50 @@
+Building pools (identical to model 11's: same seed, same draw order)...
+
+[1] Censored-inflation refit (infl+ = max(infl, 0), C and SE scales)
+  US      field_ns0 dist   2.66 ->   0.81 censored | achieved r_gC -0.002 -> +0.006 (target +0.007)
+  Pooled  field_ns0 dist   1.42 ->   0.76 censored | achieved r_gC -0.078 -> -0.073 (target -0.074)
+  Non-US  field_ns0 dist   1.38 ->   3.55 censored | achieved r_gC -0.268 -> -0.256 (target -0.272)
+  Non-US  field     dist   3.14 ->   5.80 censored | achieved r_gC -0.266 -> -0.251 (target -0.272)
+  Non-US  lab       dist   3.02 ->   9.46 censored | achieved r_gC -0.255 -> -0.212 (target -0.272)
+
+[2] V_H sensitivity {.15, .18, .41} (field_ns0, uncensored)
+context param_set  V_H  selection_ratio  perf_loss_pct_Hpath  rand_perf_loss_pct_Hpath  extra_perf_loss_vs_random_Hpath  perf_loss_pct_noH  pct_hires_changed  mean_H_faked_in
+     US field_ns0 0.15              0.1                9.289                     8.940                            0.349              9.253             34.420            0.108
+     US field_ns0 0.15              0.3                7.665                     6.835                            0.829              7.675             21.267           -0.063
+     US field_ns0 0.18              0.1                9.304                     8.901                            0.404              9.253             34.420            0.108
+     US field_ns0 0.18              0.3                7.662                     6.853                            0.809              7.675             21.267           -0.063
+     US field_ns0 0.41              0.1                9.440                     8.613                            0.827              9.253             34.420            0.108
+     US field_ns0 0.41              0.3                7.667                     7.065                            0.601              7.675             21.267           -0.063
+ Non-US field_ns0 0.15              0.1                7.993                    15.044                           -7.050              7.895             19.805           -0.117
+ Non-US field_ns0 0.15              0.3               17.978                    18.519                           -0.541             17.837             25.257           -0.190
+ Non-US field_ns0 0.18              0.1                8.032                    15.112                           -7.080              7.895             19.805           -0.117
+ Non-US field_ns0 0.18              0.3               18.030                    18.629                           -0.599             17.837             25.257           -0.190
+ Non-US field_ns0 0.41              0.1                8.378                    15.689                           -7.310              7.895             19.805           -0.117
+ Non-US field_ns0 0.41              0.3               18.431                    19.533                           -1.103             17.837             25.257           -0.190
+
+[3] Monte Carlo replications (field_ns0, seeds 2026..2050, fresh pools, full recalibration)
+  rep 1 took 6s; running 25 total
+  done in 1.9 min
+context  selection_ratio  n_reps  pct_hires_changed_mc_mean  pct_hires_changed_mc_se  perf_loss_pct_Hpath_mc_mean  perf_loss_pct_Hpath_mc_se  AIR_faked_mc_mean  AIR_faked_mc_se  mean_H_faked_in_mc_mean  mean_H_faked_in_mc_se  mean_H_displaced_mc_mean  mean_H_displaced_mc_se
+     US              0.1      25                    34.7254                   0.0572                       9.8114                     0.1511             0.3716           0.0020                   0.1030                 0.0025                    0.4158                  0.0017
+     US              0.3      25                    21.3487                   0.0218                       8.4568                     0.1282             0.5123           0.0012                  -0.0667                 0.0015                    0.2147                  0.0014
+ Pooled              0.1      25                    29.2854                   0.0631                       7.7143                     0.1206             0.3684           0.0018                   0.0779                 0.0027                    0.4153                  0.0032
+ Pooled              0.3      25                    21.6123                   0.0275                       9.4587                     0.1295             0.5197           0.0014                  -0.0809                 0.0015                    0.2038                  0.0015
+ Non-US              0.1      25                    20.0130                   0.0544                       9.4956                     0.1861             0.3606           0.0020                  -0.1050                 0.0028                    0.5806                  0.0031
+ Non-US              0.3      25                    25.2944                   0.0330                      17.9113                     0.1178             0.5250           0.0014                  -0.1900                 0.0011                    0.2855                  0.0015
+context  n_reps  m0_mc_mean  m0_mc_se  m_need_mc_mean  m_need_mc_se  m_skill_mc_mean  m_skill_mc_se  weighted_distance_mc_mean  weighted_distance_mc_se
+     US      25      1.1540    0.0007          0.4880        0.0021           0.4725         0.0005                     2.7213                   0.0101
+ Pooled      25      1.0832    0.0007          0.9014        0.0027           0.4510         0.0004                     1.4477                   0.0054
+ Non-US      25      0.9086    0.0008          1.8783        0.0035           0.4259         0.0006                     1.3357                   0.0064
+
+[4] r_CF profile grid (r_gF = -.19, r_HF = -.04 fixed)
+  US      min dist  0.456 at r_CF -0.30 | 2x-min region [<-0.30, -0.214] | +3.84 region [<-0.30, +0.142]
+  Pooled  min dist  0.062 at r_CF -0.30 | 2x-min region [<-0.30, -0.270] | +3.84 region [<-0.30, >+0.20]
+  Non-US  min dist  0.046 at r_CF -0.30 | 2x-min region [<-0.30, -0.273] | +3.84 region [<-0.30, >+0.20]
+
+[5] Freed skill slopes: separate m_skill_C / m_skill_SE (just-identified: 4 params, 4 moments)
+  US      m_skill_C +1.250 vs m_skill_SE +0.423 (shared fit: +0.474) | dist 2.66 -> 0.7579
+  Pooled  m_skill_C +1.027 vs m_skill_SE +0.424 (shared fit: +0.451) | dist 1.42 -> 0.6235
+  Non-US  m_skill_C +0.489 vs m_skill_SE +0.423 (shared fit: +0.427) | dist 1.38 -> 1.3706
+
+Saved study2_validation_results_hh_overt.csv
