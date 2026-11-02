@@ -12,5 +12,5 @@ identifiers:
     value: 10.2139/ssrn.7611561
     description: SSRN preprint
 repository-code: "https://github.com/mjmonnot/compensatory-faking"
-url: "https://papers.ssrn.com/abstract=7611561"
+url: "https://doi.org/10.2139/ssrn.7611561"
 license: MIT
