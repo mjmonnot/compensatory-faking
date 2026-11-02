@@ -7,7 +7,8 @@ Code, aggregate results, and manuscript for
 > SSRN. https://doi.org/10.2139/ssrn.7611561
 
 Preprint: [https://doi.org/10.2139/ssrn.7611561](https://doi.org/10.2139/ssrn.7611561)
-(PDF copy in `manuscript/`). Interactive companion (faking-cost calculator):
+Hosted PDF: [https://mjmonnot.github.io/assets/pdfs/Monnot_2026_Compensatory_Faking_SSRN_7611561.pdf](https://mjmonnot.github.io/assets/pdfs/Monnot_2026_Compensatory_Faking_SSRN_7611561.pdf)
+(PDF copy also in `manuscript/`). Interactive companion (faking-cost calculator):
 [mjmonnot.github.io/faking-costs](https://mjmonnot.github.io/faking-costs/).
 
 ## What the paper finds
