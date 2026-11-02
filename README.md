@@ -6,7 +6,7 @@ Code, aggregate results, and manuscript for
 > personality in personnel selection: Meta-analytic evidence and trait-driven simulations.*
 > SSRN. https://doi.org/10.2139/ssrn.7611561
 
-Preprint: [papers.ssrn.com/abstract=7611561](https://papers.ssrn.com/abstract=7611561)
+Preprint: [https://doi.org/10.2139/ssrn.7611561](https://doi.org/10.2139/ssrn.7611561)
 (PDF copy in `manuscript/`). Interactive companion (faking-cost calculator):
 [mjmonnot.github.io/faking-costs](https://mjmonnot.github.io/faking-costs/).
 
